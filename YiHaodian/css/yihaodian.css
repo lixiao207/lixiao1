@@ -1,0 +1,95 @@
+.nihao {
+	float: right;
+	font-size: 14px;
+	color: #A9A9A9;
+	margin-top: 30px;
+	margin-right: 300px;
+}
+
+h4 {
+	font-size: 14px;
+	color: darkgray;
+	padding-left: 30px;
+}
+
+.mai {
+	position: relative;
+	left: 1000px;
+	height: 500px;
+	bottom: 700px;
+	background: white width: 500px;
+}
+
+.min {
+	width: 328px;
+	height: 50px;
+}
+
+.pass {
+	text-decoration: none;
+	margin-left: 180px;
+	font-size: 14px;
+	color: blue;
+}
+
+#lon1 {
+	border-bottom: #A9A9A9 solid 1px;
+	background-image: url(../img/loginlogo.jpg);
+	background-position: 90px 10px;
+	background-repeat: no-repeat;
+	height: 80px;
+}
+
+.lon4 {
+	width: 400px;
+}
+
+form {
+	padding: 40px;
+}
+
+.zui {
+	position: relative;
+	left: 700px;
+	height: 100px;
+	bottom: 750px;
+	width: 500px;
+	font-size: 14px;
+	font-style: normal;
+}
+
+.zui a {
+	text-decoration: none;
+	color: #A9A9A9;
+	font-size: 14px;
+	text-indent: 2em;
+}
+
+.zui a:hover {
+	color: #FF0000;
+}
+
+.lon7 {
+	text-decoration: none;
+	margin-left: 170px;
+	color: blue;
+}
+
+.gen {
+	margin: 0px;
+	padding: 0px;
+	margin-left: 10px;
+	margin-bottom: 50px;
+	display: inline-block;
+}
+
+.gen>li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+li img {
+	width: 45px;
+	height: 45px;
+}
