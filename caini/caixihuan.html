@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>猜你喜欢</title>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			
+			body {
+				background: #F1F1F1;
+			}
+			
+			#footer {
+				width: 1200px;
+				/*border: 1px solid red;*/
+				/*height: 1000px;*/
+				margin: 0px auto;
+				overflow: hidden;
+				background: white;
+			}
+			
+			.title {
+				width: 350px;
+				/*border: 1px solid red;*/
+				margin: 0px auto;
+				line-height: 20px;
+				font-size: 18px;
+				color: #3c3c3c;
+			}
+			
+			img,
+			span {
+				vertical-align: middle;
+			}
+			
+			.shi {
+				text-align: center;
+				font-size: 12px;
+				line-height: 18px;
+				color: #999;
+			}
+			
+			div ul li {
+				float: left;
+				list-style: none;
+				/*border: 1px solid red;*/
+				width: 250px;
+				margin: 25px;
+				height: 328px;
+				background: #F1F1F1;
+			}
+			
+			p .xiao {
+				float: right;
+			}
+			
+			li:hover .tupian {
+				border: 1px solid red;
+				width: 270px;
+			}
+			
+			.xiangsi {
+				position: relative;
+				width: 253px;
+				bottom: 83px;
+				display: none;
+			}
+			
+			ul li:hover .xiangsi {
+				display: block;
+			}
+			
+			p .jiage {
+				color: red;
+				font-size: 16px;
+				font-weight: bolder;
+			}
+			
+			li p:nth-of-type(2) {
+				line-height: 40px;
+			}
+			
+			#ce {
+				border: 1px solid  #A9A9A9;
+				width: 66px;
+				height: 569px;
+				left: 1680px;
+				bottom: 300px;
+				line-height: 4;
+				text-align: center;
+				background: white;
+				position: fixed;
+			}
+			
+			#ce p {
+				border-bottom: 1px dashed darkgrey;	
+			}
+			#ce p .yi{
+				text-decoration: none;
+				color: red;
+			}
+			#ce p .er{
+				text-decoration: none;
+				color: blue;
+			}
+			#ce p .san{
+				text-decoration: none;
+				color: #967CFF;
+			}
+			#ce p .si{
+				text-decoration: none;
+				color: #A3755B;
+			}
+			#ce p .wu{
+				text-decoration: none;
+				color: #A9C100;
+			}
+			#ce p .liu{
+				text-decoration: none;
+				color: #FF4000;
+			}
+			#ce p .qi{
+				text-decoration: none;
+				color: black;
+			}
+			#ce p .ba{
+				text-decoration: none;
+				color: black;
+			}
+			#ce p .jiu{
+				text-decoration: none;
+				color: black;
+			}
+			#ce p:last-child{
+				border-bottom: none;
+			}
+			#ce p .yi:hover{
+				display: block;
+				background: red;
+				color: white;
+			}
+			#ce p .er:hover{
+				display: block;
+				background: blue;
+				color: white;
+			}
+			#ce p .san:hover{
+				display: block;
+				background: #967CFF;
+				color: white;
+			}#ce p .si:hover{
+				display: block;
+				background: #A3755B;
+				color: white;
+			}#ce p .wu:hover{
+				display: block;
+				background: #A9C100;
+				color: white;
+			}#ce p .liu:hover{
+				display: block;
+				background: #FF4000;
+				color: white;
+			}#ce p .qi:hover{
+				display: block;
+				background: #FF4000;
+				color: white;
+			}#ce p .ba:hover{
+				display: block;
+				background: pink;
+				color: white;
+			}#ce p .jiu:hover{
+				display: block;
+				background: #FF0026;
+				color: white;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="footer">
+			<img src="https://img.alicdn.com/tps/i4/TB1iTkVLFXXXXXNaXXXAF6IGpXX-160-66.png_80x80.jpg" />
+			<div class="title">
+				<h3>
+				<span><img src="img/xian.png"/></span>
+				<img style="background-position: 20px 20px;" src="img/xin.png" />
+				<span>猜你喜欢</span><span><img src="img/xian.png"/></span>
+			</h3>
+				<p class="shi">实时推荐最适合你的宝贝</p>
+			</div>
+			<div>
+				<ul>
+					<li>
+						<a href="#" class="tupian"><img src="https://img.alicdn.com/bao/uploaded/i3/TB1U3jYSXXXXXb3aXXXXXXXXXXX_!!0-item_pic.jpg_250x250.jpg" /></a>
+						<p>金多喜 地中海美式实木双层床儿童上下床高低床母子上下铺子母床</p>
+						<p><span class="jiage">￥2780</span><span class="xiao">销量:2</span></p>
+
+						<a href="#"><img class="xiangsi" src="img/xiangsi.png"></a>
+					</li>
+					<li>
+						<a href="#"><img src="https://img.alicdn.com/bao/uploaded/i4/TB1wHVmHXXXXXXwXFXXXXXXXXXX_!!0-item_pic.jpg_250x250.jpg" /></a>
+						<p>麻布坊 意大利进口高端双面纯毛呢 双面双纹理 纯毛面料</p>
+						<p><span class="jiage">￥76</span><span class="xiao">销量:2</span></p>
+						<a href="#"><img class="xiangsi" src="img/xiangsi.png" /></a>
+					</li>
+					<li>
+						<a href="#"><img src="https://img.alicdn.com/bao/uploaded/i4/TB1pBfoJFXXXXcvXpXXXXXXXXXX_!!0-item_pic.jpg_250x250.jpg" /></a>
+						<p>飞智盒子配件 4口USB2.0多接口 4口HUB 支持1TB硬盘</p>
+						<p><span class="jiage">￥39.9</span><span class="xiao">销量:4</span></p>
+						<a href="#"><img class="xiangsi" src="img/xiangsi.png" /></a>
+					</li>
+					<li>
+						<a href="#"><img src="https://img.alicdn.com/bao/uploaded/i4/17559037/TB2c_5Tb.AKL1JjSZFkXXa8cFXa_!!0-saturn_solar.jpg_250x250.jpg" /></a>
+						<p>新货新疆特产薄皮核桃原味500g 纸皮核桃</p>
+						<p><span class="jiage">￥11.9</span><span class="xiao">销量:6969</span></p>
+						<a href="#"><img class="xiangsi" src="img/xiangsi.png" /></a>
+					</li>
+
+				</ul>
+				<ul>
+					<li>
+						<a href="#"><img src="https://img.alicdn.com/bao/uploaded/i3/2664659854/TB2.H.3bRUSMeJjSspfXXX0VFXa_!!2664659854.jpg_250x250.jpg" /></a>
+						<p>地中海家用吧台桌实木吧台桌白色吧台桌阳台吧台酒柜隔断</p>
+						<p><span class="jiage">￥200</span><span class="xiao">销量:189</span ></p>
+					<a href="#"><img class="xiangsi" src="img/xiangsi.png"/></a>
+				</li>
+				<li><a href="#"><img src="https://img.alicdn.com/bao/uploaded/i1/TB16MZoGFXXXXaSXXXXXXXXXXXX_!!0-item_pic.jpg_250x250.jpg" /></a>
+					<p>欧单面料 灰色 弹力 纯棉 布料 绒面 柔软 弹力好 厚款</p>
+					<p><span class="jiage">￥24</span><span class="xiao">销量:16<span/></p>
+					<a href="#"><img class="xiangsi" src="img/xiangsi.png"/></a>
+					
+				</li>
+				<li><a href="#"><img src="https://img.alicdn.com/bao/uploaded/i2/2681421876/TB1Pg5rRXXXXXciaXXXXXXXXXXX_!!0-item_pic.jpg_250x250.jpg" /></a>
+					<p>t恤女士2017夏季新款纯白色V领短袖纯棉半袖打底衫女上衣服厂家批</p>
+					<p><span class="jiage">￥69</span><span class="xiao">销量:99</span ></p>
+					<a href="#"><img class="xiangsi" src="img/xiangsi.png"/></a>
+				</li>
+				<li><a href="#"><img src="https://img.alicdn.com/bao/uploaded/i2/1150006090996068555/TB2g4KxagojyKJjy0FaXXakspXa_!!0-saturn_solar.jpg_250x250.jpg" /></a>
+					<p>全网通4G手机双屏男女超薄智能手机</p>
+					<p><span class="jiage">￥488</span><span class="xiao">销量:520</span ></p>
+					<a href="#"><img class="xiangsi" src="img/xiangsi.png"/></a>
+					
+				</li>
+				
+			</ul>
+			<ul>
+				<li><a href="#"><img src="https://img.alicdn.com/bao/uploaded/i4/756501602/TB1C3l9XogQMeJjy0FiXXXhqXXa_!!0-item_pic.jpg_250x250.jpg" /></a>
+					<p>Nicewell2017秋季新款时尚韩版套装女风衣外套吊带连衣裙两件套潮</p>
+					<p><span class="jiage">￥238</span><span class="xiao">销量:5</span ></p>
+					<a href="#"><img class="xiangsi" src="img/xiangsi.png"/></a>
+					
+				</li>
+				<li><a href="#"><img src="https://img.alicdn.com/bao/uploaded/i3/TB1QgTFRFXXXXc2aXXXXXXXXXXX_!!0-item_pic.jpg_250x250.jpg" /></a>
+					<p>2017夏两件套小香风时尚淑女背带裙上衣女短袖T恤十黑白格子套装</p>
+					<p><span class="jiage">￥76.9</span><span class="xiao">销量:52</span ></p>
+					<a href="#"><img class="xiangsi" src="img/xiangsi.png"/></a>
+					
+				</li>
+				<li><a href="#"><img src="https://img.alicdn.com/bao/uploaded/i4/TB1ma7LHXXXXXXLaXXXXXXXXXXX_!!0-item_pic.jpg_250x250.jpg" /></a>
+					<p>IT-CEO Y1USB3-H usb3.0转hdmi高清线接口外置显卡转接线延长线</p>
+					<p><span class="jiage">￥179</span><span class="xiao">销量:30</span ></p>
+					<a href="#"><img class="xiangsi" src="img/xiangsi.png"/></a>
+					
+				</li>
+				<li><a href="https://item.taobao.com/item.htm?spm=a21bo.50862.201875.25.28689e73Id6Fv6&scm=1007.12493.69999.100200300000005&id=545205088071&pvid=61fde9fc-f003-40d0-8167-e77755222b98"><img src="https://img.alicdn.com/bao/uploaded/i1/TB1jKlqOVXXXXaxXpXXXXXXXXXX_!!0-item_pic.jpg_250x250.jpg" /></a>
+					<p>2017春时尚运动女鞋真皮渐变色女单鞋松糕跟皮鞋系带低帮休闲板鞋</p>
+					<p><span class="jiage">￥115</span><span class="xiao">销量:1000</span ></p>
+					<a href="#"><img class="xiangsi" src="img/xiangsi.png"/></a>
+					
+				</li>
+				
+			</ul>
+		</div>
+		</div>
+		<div id="ce">
+			<p><a class="yi" href="#">我常逛的</a></p>
+			<p><a class="er" href="#">时尚</a></p>
+			<p><a class="san" href="#">品质</a></p>
+			<p><a class="si" href="#">特色</a></p>
+			<p><a class="wu" href="#">实惠</a></p>
+			<p><a class="liu" href="#">猜你喜欢</a></p>
+			<p><a class="qi" href="#">顶部</a></p>
+			<p><a class="ba" href="#">反馈</a></p>
+			<p><a class="jiu" href="#">暴恐举报</a></p>
+		</div>
+	</body>
+</html>
